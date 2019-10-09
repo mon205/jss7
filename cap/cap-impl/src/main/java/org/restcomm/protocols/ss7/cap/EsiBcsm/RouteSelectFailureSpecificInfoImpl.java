@@ -109,7 +109,7 @@ public class RouteSelectFailureSpecificInfoImpl extends SequenceBase implements 
         sb.append(_PrimitiveName);
         sb.append(" [");
         if (this.failureCause != null) {
-            sb.append("failureCause= {");
+            sb.append("failureCause= [");
             sb.append(failureCause);
             sb.append("]");
         }
